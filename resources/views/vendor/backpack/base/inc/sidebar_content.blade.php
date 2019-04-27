@@ -8,4 +8,5 @@
     <li><a href="{{ url(config('backpack.base.route_prefix', 'admin').'/language/texts') }}"><i class="fa fa-language"></i> Site texts</a></li>
   </ul>
 </li>
-<li><a href='{{ backpack_url('customer') }}'><i class ='fa fa-tag'></i><span>customer</span></a></li>
+<li><a href="{{ backpack_url('customer') }}"><i class ='fa fa-tag'></i><span>customer</span></a></li>
+<li><a href="{{ url(config('backpack.base.route_prefix').'/page') }}"><i class="fa fa-file-o"></i> <span>Pages</span></a></li>
